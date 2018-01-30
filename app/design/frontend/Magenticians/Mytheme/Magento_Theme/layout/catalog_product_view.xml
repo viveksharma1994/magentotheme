@@ -4,5 +4,11 @@
         <css src="css/style.css"/>
       
     </head>
+    <body>
+    	<referenceContainer name="footer">
+       <block class="\Magento\Framework\View\Element\Template" name="store"  after="footer_links" template="Magento_Theme::html/test.phtml"/>
+   </referenceContainer>
+   <referenceBlock name="header.container" remove="true" />
+</body>
     
 </page>
